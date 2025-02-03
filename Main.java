@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Data pelanggan
+        // Data_pelanggan
         System.out.print("Masukkan nama Pelanggan: ");
         String namaTamu = scanner.nextLine();
 
@@ -12,7 +12,7 @@ public class Main {
         String kontakTamu = scanner.nextLine();
         Pelanggan pelanggan = new Pelanggan(namaTamu, kontakTamu);
 
-        // Pilihan tipe kamar
+        // Pilihan_tipe_kamar
         System.out.println("Pilih tipe kamar:");
         System.out.println("1. Suite Room");
         System.out.println("2. Standard Room");
@@ -37,7 +37,7 @@ public class Main {
         System.out.print("Masukkan pilihan fasilitas (1/2/3): ");
         int pilihanFasilitas = scanner.nextInt();
 
-        // fasilitas pilihan
+        // fasilitas_pilihan
         Fasilitas fasilitas = null;
         switch (pilihanFasilitas) {
             case 1:
@@ -54,7 +54,7 @@ public class Main {
                 System.out.println("Pilihan fasilitas tidak valid.");
         }
 
-        // Menetapkan fasilitas ke kamar jika ada
+        // Menetapkan_fasilitas_Kekamar_jika_ada
         if (fasilitas != null) {
             kamar.setFasilitas(fasilitas);
         }
