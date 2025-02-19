@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Data_pelanggan
+        // Data_pelanggan.
         System.out.print("Masukkan nama Pelanggan: ");
         String namaTamu = scanner.nextLine();
 
