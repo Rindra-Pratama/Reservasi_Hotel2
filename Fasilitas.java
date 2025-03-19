@@ -19,7 +19,7 @@ public class Fasilitas {
                 return 0;
             
             default:
-                return 0; // Jika tidak ada fasilitas yang va
+                return 0; 
         }
     }
 
