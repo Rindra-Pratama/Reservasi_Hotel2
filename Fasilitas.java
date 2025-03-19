@@ -2,7 +2,7 @@ public class Fasilitas {
     private String namaFasilitas;
     private double hargaFasilitas; 
 
-    // Constructor
+    
     public Fasilitas(String namaFasilitas) {
         this.namaFasilitas = namaFasilitas;
         this.hargaFasilitas = setHargaFasilitas(namaFasilitas);
