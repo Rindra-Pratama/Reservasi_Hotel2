@@ -8,7 +8,7 @@ public class Fasilitas {
         this.hargaFasilitas = setHargaFasilitas(namaFasilitas);
     }
 
-    // Method untuk menetapkan harga  
+   
     private double setHargaFasilitas(String namaFasilitas) {
         switch (namaFasilitas) {
             case "Sarapan":
